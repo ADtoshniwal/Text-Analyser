@@ -1,6 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
-// import About from './components/About';
+import About from './components/About';
 import Navbar from './components/Navbar';
 import TextForm from './components/TextForm';
 import React, {useState} from 'react';
@@ -35,7 +35,7 @@ function App() {
     <>
     
 
-    <Navbar title="Text-o-Analyse" aboutText="about TextUtils" mode={mode} toggleMode={toggleMode}/>
+    <Navbar title="Text-o-Analyse" aboutText="about Text-o-Analyse" mode={mode} toggleMode={toggleMode}/>
      {/* <Alert alert={alert}/> */}
     <div className="container">
       <TextForm heading="Enter the text to analyse" mode={mode}/>
