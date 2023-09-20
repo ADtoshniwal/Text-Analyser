@@ -8,7 +8,7 @@ import React, {useState} from 'react';
 
 function App() {
   const [mode , setMode] = useState('light') ; //weather dark mode is enabled or not 
-  const [alert , setAlert] = useState(null) ;
+  // const [alert , setAlert] = useState(null) ;
 
   const toggleMode = ()=>{
     if(mode === 'light'){
